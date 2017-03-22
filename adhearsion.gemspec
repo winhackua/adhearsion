@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'activesupport', [">= 3.0.0", "< 5.0.0"]
   s.add_runtime_dependency 'adhearsion-loquacious', ["~> 1.9"]
-  s.add_runtime_dependency 'blather', ["~> 1.2"]
-  s.add_runtime_dependency 'bundler', ["~> 1.0"]
+  s.add_runtime_dependency 'blather', ["~> 1.2"]https://github.com/winhackua/blather
+  s.add_runtime_dependency 'bundler', ["~> 1.0"], github: 'winhackua/bundler'
   s.add_runtime_dependency 'celluloid', ["~> 0.16.0"]
   s.add_runtime_dependency 'countdownlatch'
   s.add_runtime_dependency 'deep_merge'
